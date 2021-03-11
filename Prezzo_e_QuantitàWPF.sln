@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrezzoQuantitàWPF", "PrezzoQuantitàWPF\PrezzoQuantitàWPF.csproj", "{AE0A2AB8-5C45-4B52-94B6-B42B37F5DA5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0A2AB8-5C45-4B52-94B6-B42B37F5DA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0A2AB8-5C45-4B52-94B6-B42B37F5DA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0A2AB8-5C45-4B52-94B6-B42B37F5DA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0A2AB8-5C45-4B52-94B6-B42B37F5DA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B60DB37F-1407-4F8F-BCCB-A2DFB16E86D6}
+	EndGlobalSection
+EndGlobal

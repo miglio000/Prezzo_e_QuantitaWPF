@@ -1,0 +1,22 @@
+﻿<Window x:Class="PrezzoQuantitàWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrezzoQuantitàWPF"
+        mc:Ignorable="d"
+        Title="Prezzo e Quantità" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblPrezzo" Content="Prezzo:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="82,55,0,0"/>
+        <TextBox x:Name="txtPrezzo" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="150,58,0,0" SelectionOpacity="0.5"/>
+        <Button x:Name="btnCalcola" Content="Calcola" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.88,1.9" Margin="82,114,0,0" Click="btnCalcola_Click"/>
+        <Label x:Name="lblPrezzp" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="82,139,0,0"/>
+        <Label x:Name="lblQuantità" Content="Quantità:" HorizontalAlignment="Left" Margin="357,58,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtQuantità" HorizontalAlignment="Left" Height="23" Margin="456,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblTotale" Content="Totale:" HorizontalAlignment="Left" Margin="82,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSconto" Content="Sconto(0&lt;=num&lt;=100):" HorizontalAlignment="Left" Margin="624,58,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSconto" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="23" Margin="643,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblOuputTotale" Content="" HorizontalAlignment="Left" Margin="161,196,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
